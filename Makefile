@@ -4,7 +4,8 @@ LOLCAT_SRC ?= lolcat.c
 CENSOR_SRC ?= censor.c
 CFLAGS ?= -std=c11 -Wall -Wextra
 
-DESTDIR ?= /usr/local/bin
+# DESTDIR ?= /usr/local/bin
+DESTDIR ?= ${HOME}/.local/bin
 
 all: lolcat censor
 
